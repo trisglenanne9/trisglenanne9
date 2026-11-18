@@ -4,9 +4,9 @@ I build data and automation tools for accounting and finance teams: dashboards, 
 
 ### [CoE Dashboard](https://github.com/trisglenanne9/coe-dashboard)
 
-Billing against budget, debtor aging and collection for an accounting firm's leadership. An Azure Function reads about 30 Excel workbooks from SharePoint in about 20 seconds; a static web app draws every chart in the browser, with a comment board on each tab so decisions sit next to the numbers. It replaced a 17-page Power BI report and matched it on 150 of 150 figures before go-live.
+Billing and collection for an accounting firm's leadership, built entirely inside Microsoft 365 and Azure. An Azure Function reads about 30 Excel workbooks from SharePoint (read-only, through Microsoft Graph). Data and comments live in a private Azure Storage account, a Static Web App behind company sign-in draws the charts, and reminders for quiet action items go out through Exchange Online. Serverless, close to zero running cost. It replaced a 17-page Power BI report and matched it on 150 of 150 figures before go-live.
 
-**[Try the demo](https://trisglenanne9.github.io/coe-dashboard/)** (made-up data) · [Architecture](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/ARCHITECTURE.md) · [User guide](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/GUIDE.md)
+**[Try the demo](https://trisglenanne9.github.io/coe-dashboard/)** (made-up data) · [How it's built](https://github.com/trisglenanne9/coe-dashboard#architecture) · [User guide](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/GUIDE.md)
 
 [![CoE Dashboard demo: picking entities and clicking a donut slice, every chart follows](https://raw.githubusercontent.com/trisglenanne9/coe-dashboard/main/docs/images/demo.gif)](https://trisglenanne9.github.io/coe-dashboard/)
 
