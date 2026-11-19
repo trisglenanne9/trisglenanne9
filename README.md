@@ -4,11 +4,11 @@ I build data and automation tools for accounting and finance teams: dashboards, 
 
 ### [CoE Dashboard](https://github.com/trisglenanne9/coe-dashboard)
 
-Billing and collection for an accounting firm's leadership, built entirely inside Microsoft 365 and Azure. An Azure Function reads about 30 Excel workbooks from SharePoint (read-only, through Microsoft Graph). Data and comments live in a private Azure Storage account, a Static Web App behind company sign-in draws the charts, and reminders for quiet action items go out through Exchange Online. Serverless, close to zero running cost. It replaced a 17-page Power BI report and matched it on 150 of 150 figures before go-live.
+Billing and collection for an accounting firm's leadership, built entirely on the Microsoft 365 and Azure the firm already has. Finance's 30 or so spreadsheets stay on SharePoint and are only ever read. The figures and comments sit in a locked store in the firm's own Azure, and leaders open the dashboard with their company login. Comments become action items with automatic email reminders. No new licences, close to zero running cost, and 150 of 150 figures matched the old Power BI report at go-live.
 
-**[Try the demo](https://trisglenanne9.github.io/coe-dashboard/)** (made-up data) · [How it's built](https://github.com/trisglenanne9/coe-dashboard#architecture) · [User guide](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/GUIDE.md)
+**[Try the demo](https://trisglenanne9.github.io/coe-dashboard/)** (made-up data) · [How it works](https://github.com/trisglenanne9/coe-dashboard#how-it-works) · [User guide](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/GUIDE.md)
 
-[![CoE Dashboard demo: picking entities and clicking a donut slice, every chart follows](https://raw.githubusercontent.com/trisglenanne9/coe-dashboard/main/docs/images/demo.gif)](https://trisglenanne9.github.io/coe-dashboard/)
+[![How the CoE Dashboard works](https://raw.githubusercontent.com/trisglenanne9/coe-dashboard/main/docs/images/how-it-works.svg)](https://github.com/trisglenanne9/coe-dashboard#how-it-works)
 
 ### [InnVa](https://github.com/trisglenanne9/innva)
 
