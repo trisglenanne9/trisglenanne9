@@ -8,7 +8,7 @@ Billing and collection for an accounting firm's leadership, built entirely on th
 
 **[Try the demo](https://trisglenanne9.github.io/coe-dashboard/)** (made-up data) · [How it works](https://github.com/trisglenanne9/coe-dashboard#how-it-works) · [User guide](https://github.com/trisglenanne9/coe-dashboard/blob/main/docs/GUIDE.md)
 
-[![How the CoE Dashboard works](https://raw.githubusercontent.com/trisglenanne9/coe-dashboard/main/docs/images/how-it-works.svg)](https://github.com/trisglenanne9/coe-dashboard#how-it-works)
+[![How the CoE Dashboard is built](https://raw.githubusercontent.com/trisglenanne9/coe-dashboard/main/docs/images/architecture-overview.svg)](https://github.com/trisglenanne9/coe-dashboard#how-it-works)
 
 ### [InnVa](https://github.com/trisglenanne9/innva)
 
