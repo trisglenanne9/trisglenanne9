@@ -12,7 +12,7 @@ Billing and collection for an accounting firm's leadership, built entirely on th
 
 ### [3 Ons Dashboard](https://github.com/trisglenanne9/3ons-dashboard)
 
-On time, on budget and on point for an accounting firm's audit and tax jobs. It replaced a Power BI report: about 25 workbooks the teams already keep on SharePoint are read, never changed, and one Python engine on Azure Functions rebuilds every figure on Refresh. Click any slice or team and every chart follows, down to the client; a warning appears when a source file fails or moves. Job statuses matched the old report 100% before go-live.
+On time, on budget and on point for an accounting firm's audit and tax jobs. It replaced a Power BI report: 29 sources the teams already keep are read, never changed, and one Python engine on Azure Functions rebuilds every figure on Refresh. Click any slice or team and every chart follows, down to the client; a warning appears when a source file fails or moves. Job statuses matched the old report 100% before go-live.
 
 **[Try the demo](https://trisglenanne9.github.io/3ons-dashboard/)** (made-up data) · [How it's built](https://github.com/trisglenanne9/3ons-dashboard/blob/main/docs/ARCHITECTURE.md) · [User guide](https://github.com/trisglenanne9/3ons-dashboard/blob/main/docs/GUIDE.md)
 
